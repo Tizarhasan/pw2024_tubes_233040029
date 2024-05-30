@@ -1,0 +1,69 @@
+.add-product {
+    padding: 10px;
+  }
+  
+  .add-product .container {
+    background: white;
+    padding: 10px;
+  
+    box-shadow: 7px 7px 3px rgba(0, 0, 0, 0.4);
+  }
+  
+  .add-product .title {
+    line-height: 80px;
+    margin: 0;
+    padding: 0 !important;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .add-product form .field {
+    margin: 0 0 10px 0;
+  }
+  
+  .add-product .btn-cancel {
+    margin-left: auto;
+    font-size: 28px;
+    margin-right: 10px;
+  }
+  .add-product .img-preview {
+    padding-top: 20px;
+    margin: auto;
+  }
+  
+  /* rubah data */
+  .change-product {
+    padding: 10px;
+  }
+  
+  .change-product .container {
+    background: white;
+    padding: 10px;
+  
+    box-shadow: 7px 7px 3px rgba(0, 0, 0, 0.4);
+  }
+  
+  .change-product .title {
+    line-height: 80px;
+    margin: 0;
+    padding: 0 !important;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .change-product form .field {
+    margin: 0 0 10px 0;
+  }
+  
+  .change-product .btn-cancel {
+    margin-left: auto;
+    font-size: 28px;
+    margin-right: 10px;
+  }
+  .change-product .img-preview {
+    padding-top: 20px;
+    margin: auto;
+  }
+  

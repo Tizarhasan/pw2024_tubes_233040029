@@ -1,0 +1,173 @@
+.form-login {
+    background-color: #fdfffcff;
+    margin: auto;
+    border-radius: 30px;
+    /* padding:30px 50px !important; */
+    position: absolute;
+    margin-top: 120px;
+    box-shadow: 7px 7px 3px #2e516d;
+    place-items: center;
+    padding: 0 !important;
+  }
+  .form-login .title {
+    line-height: 100px;
+    background-color: #222;
+    margin: 0;
+    padding: 0 !important;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 30px 30px 0px 0px;
+  }
+  .form-login .registrasi a {
+    color: #235789ff !important;
+  }
+  .form-login form {
+    padding: 10px 30px 10px 30px;
+  }
+  .form-login form .field {
+    position: relative;
+    margin: 20px 0;
+  }
+  .form-login form .field input {
+    padding-left: 20px;
+    border-radius: 25px;
+    min-height: 50px;
+    border: 2px solid lightgrey;
+    outline: none;
+    transition: all 0.3s ease;
+    font-size: 17px;
+  }
+  
+  .form-login form .field label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 17px;
+    color: #999;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  .form-login form .field input:focus ~ label,
+  .form-login form .field input:valid ~ label {
+    color: #414141;
+    font-size: 16px;
+    background: #fdfffcff;
+    top: 0%;
+    transform: translateY(-50%);
+  }
+  .form-login form .field input:focus,
+  .form-login form .field input:valid {
+    border-color: rgba(0, 0, 0, 0.3);
+    box-shadow: none;
+  }
+  
+  .form-login form button {
+    min-height: 50px;
+    font-size: 17px;
+    border-radius: 25px;
+  }
+  
+  .form-login .registrasi {
+    padding: 10px 30px 40px 30px;
+  }
+  
+  /* -------- regis -------- */
+  
+  .form-registrasi {
+    background-color: #fdfffcff;
+    margin: auto;
+    border-radius: 300px !important;
+    /* padding:30px 50px !important; */
+    position: absolute;
+    margin-top: 120px;
+    box-shadow: 7px 7px 3px rgba(0, 0, 0, 0.3);
+    place-items: center;
+    padding: 0 !important;
+  }
+  .form-registrasi .title {
+    line-height: 100px;
+    background-color: #222;
+    margin: 0;
+    padding: 0 !important;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 30px 30px 0px 0px;
+  }
+  .form-registrasi .registrasi a {
+    color: #235789ff !important;
+  }
+  .form-registrasi form {
+    padding: 10px 30px 50px 30px;
+  }
+  .form-registrasi form .field {
+    position: relative;
+    margin: 20px 0;
+  }
+  .form-registrasi form .field input {
+    padding-left: 20px;
+    border-radius: 25px;
+    min-height: 50px;
+    border: 2px solid lightgrey;
+    outline: none;
+    transition: all 0.3s ease;
+    font-size: 17px;
+  }
+  
+  .form-floating:not(.form-control:disabled)::before {
+    background-color: transparent !important;
+  }
+  
+  .form-registrasi form .field label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 17px;
+    color: #999;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  .form-registrasi form .field input:focus ~ label,
+  .form-registrasi form .field input:valid ~ label {
+    color: #414141;
+    font-size: 16px;
+    background: #fdfffcff;
+    top: 0%;
+    transform: translateY(-50%);
+  }
+  .form-registrasi form .field input:focus,
+  .form-registrasi form .field input:valid {
+    border-color: rgb(248, 221, 47);
+    box-shadow: none;
+  }
+  
+  .form-registrasi form button {
+    min-height: 50px;
+    font-size: 17px;
+    border-radius: 25px;
+  }
+  .form-registrasi a {
+    padding-top: 15px;
+    text-align: right !important;
+    color: #235789ff !important;
+  }
+  
+  .turun {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    margin-top: 150px !important;
+    border-radius: 25px !important;
+  }
+  
+  @media screen and (max-width: 670px) {
+    .turun {
+      margin-top: 200px !important;
+    }
+  }

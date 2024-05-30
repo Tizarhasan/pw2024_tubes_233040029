@@ -1,0 +1,76 @@
+html {
+    overflow-x: hidden;
+  }
+  
+ 
+  /* header hero */
+  section#headhero1 {
+    background-image: url(./assets/img/Mobile\ Legend\ Tournament.png) !important;
+    width: 100vw;
+    height: 80vh; /* Adjusted to be more responsive */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  
+  /* header hero responsive hp */
+  @media (max-width: 600px) {
+    section#headhero1 {
+      background-image: url(./assets/img/Mobile\ Legend\ Tournament.png) !important;
+      height: 55vh; /* Adjusted height for mobile devices */
+      background-size: cover !important;
+      background-position: center !important;
+      background-color: #e6e3da !important;
+      margin-top: 10%;
+    }
+  
+    .header-text {
+      position: absolute;
+      top: 50%; /* Center the text vertically */
+      left: 50%; /* Center the text horizontally */
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding-inline-start: 0; /* Reset padding */
+    }
+  
+    .p-1 {
+      width: 100%; /* Make it responsive */
+      margin: 0 auto !important;
+    }
+  }
+  
+  /* tablet */
+  @media (max-width: 768px) {
+    .regis {
+      text-align: center !important;
+      display: block !important;
+    }
+  
+    .putinput {
+      margin: auto !important;
+    }
+    .tombol12 {
+      margin: auto !important;
+      align-items: center !important;
+      width: auto !important;
+      height: auto !important;
+    }
+  }
+  
+  /* header hero for larger screens */
+  @media (min-width: 1024px) {
+    .header-text {
+      position: absolute;
+      top: 50%; /* Center the text vertically */
+      left: 50%; /* Center the text horizontally */
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  }
+  
+  i {
+    color: white !important;
+  }
+  
+  /* header hero end */
+  
