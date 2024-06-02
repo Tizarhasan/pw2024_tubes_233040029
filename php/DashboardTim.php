@@ -122,7 +122,7 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin' ) {
                                 <th scope="col">Nama Tim</th>
                                 <th scope="col">Region</th>
                                 <th scope="col">Logo</th>
-                                <th scope="col">Nama Peserta</th>
+                                <th scope="col">Nama Kapten Tim</th>
                                 <th scope="col">Aksi</th>
                             </tr>
                         </thead>

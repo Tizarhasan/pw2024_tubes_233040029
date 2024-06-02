@@ -93,7 +93,7 @@ if (isset($_POST["submit_tambah_tim"])) {
                             </div>
                             <div class="field">
                                 <!-- Participant -->
-                                <label for="id_peserta">Participant</label>
+                                <label for="id_peserta">Kapten Tim</label>
                                 <select name="id_peserta" id="id_peserta" required>
                                     <option value="">Select Participant</option>
                                     <option value="" selected>Tidak Memilih</option>
