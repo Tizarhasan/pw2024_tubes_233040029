@@ -1,8 +1,8 @@
 <section class="navadmin ">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top atas" style="background-color: #212121;">
         <div class="container-fluid">
-            <a class="navbar-brand py-1" href="https://main.aov.garena.co.id/">
-                <img src="./assets/img/mlbb.png" alt="logo" width="100px" />
+            <a class="navbar-brand py-1" href="">
+                <img src="../assets/img/logo-baru.png" alt="logo" width="100px" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

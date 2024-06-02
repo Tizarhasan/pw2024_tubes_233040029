@@ -35,7 +35,7 @@ $user_has_team = !is_null($id_tim); ?>
       <div class="row">
         <div class="col-12">
           <div class="header-text py-2">
-            <h1 >Lihat</h1>
+            <!-- <h1 >Lihat</h1> -->
             <button type="button" class="btn btn-dark mx-4">
               HERE <i class="fa-solid fa-arrow-right"></i>
             </button>
@@ -60,15 +60,15 @@ $user_has_team = !is_null($id_tim); ?>
                 <button type="button" class="btn btn-dark mx-4">
               Disini <i class="fa-solid fa-arrow-right"></i>
             </button></a>
-       
           </div>
+
           <div class="col-lg-6">
             <div class="px-4 py-5 align-self-center">
               <img
-                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2ec970f4-1706-4915-9a93-41f3d9c8202c/deauluq-d3998b1c-4233-4f20-bf56-07085f0dfdad.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJlYzk3MGY0LTE3MDYtNDkxNS05YTkzLTQxZjNkOWM4MjAyY1wvZGVhdWx1cS1kMzk5OGIxYy00MjMzLTRmMjAtYmY1Ni0wNzA4NWYwZGZkYWQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.YbQVcYH7Lb00eSENDq29AMfnpAhgy8gNzTBMP76W-3A"
+                src="https://i.pinimg.com/474x/25/56/63/255663d75c00f9872a19b98dfca0641c.jpg"
                 alt=""
                 class="py-3 w-100"
-                style="border-radius: 30px 30px 30px 0px"
+                style="border-radius: 50px"
               />
             </div>
           </div>
@@ -83,10 +83,10 @@ $user_has_team = !is_null($id_tim); ?>
           <div class="col-lg-6">
             <div class="px-4 py-5 align-self-center">
               <img
-                src="https://anifest.org/wp-content/uploads/2023/03/anifest--anichan-point-sm-wm.png"
+                src="https://i.pinimg.com/474x/b7/b2/02/b7b202fe927501a02291279b26b59dea.jpg"
                 alt=""
-                style="border-radius: 30px 30px 30px 0px"
-                class="py-3 w-100"
+                style="border-radius: 50px"
+                class="py-3 w-50"
               />
             </div>
           </div>

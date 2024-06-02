@@ -1,7 +1,6 @@
 <?php
 $conn = mysqli_connect("localhost:3306", "root", "root", "pw2024_tubes_233040029");
 
-
 function query($query)
 {
     global $conn;
@@ -294,25 +293,49 @@ function tambahTurnamenTim($data) {
 
 function tambahTurnamenTimUser($data) {
     global $conn;
-    $id_turnamen = htmlspecialchars($data["id_turnamen"]);
-    $id_tim = htmlspecialchars($data["id_tim"]); // Ambil ID tim
-
-    // Pastikan $id_tim tidak kosong
-    if (!empty($id_tim)) {
-        // Tambahkan data tim yang berpartisipasi ke dalam tabel turnamen_tim
-        $query_turnamen_tim = "INSERT INTO turnamen_tim (id_turnamen, id_tim) VALUES ('$id_turnamen', '$id_tim')";
-        mysqli_query($conn, $query_turnamen_tim);
-        echo "<script> 
-            alert('Data turnamen tim berhasil ditambahkan!');
-            document.location.href = 'DashboardTurnamen.php';
-        </script>";
+    
+    // Debugging: Check if 'id_turnamen' is set and not empty
+    if (isset($data["id_turnamen"]) && !empty($data["id_turnamen"])) {
+        $id_turnamen = htmlspecialchars($data["id_turnamen"]);
+        echo "ID Turnamen: " . $id_turnamen . "<br>"; // Debugging
+        
+        // Ensure 'id_tim' is set and not empty
+        if (!empty($data["id_tim"])) {
+            $id_tim = htmlspecialchars($data["id_tim"]);
+            echo "ID Tim: " . $id_tim . "<br>"; // Debugging
+            
+            // Insert data into the 'turnamen_tim' table
+            $query_turnamen_tim = "INSERT INTO turnamen_tim (id_turnamen, id_tim) VALUES (?, ?)";
+            $stmt = mysqli_prepare($conn, $query_turnamen_tim);
+            
+            // Bind parameters and execute the statement
+            mysqli_stmt_bind_param($stmt, 'ii', $id_turnamen, $id_tim);
+            if (mysqli_stmt_execute($stmt)) {
+                echo "<script> 
+                    alert('Data turnamen tim berhasil ditambahkan!');
+                    document.location.href = 'turnamenku.php';
+                </script>";
+            } else {
+                echo "<script>
+                    alert('Gagal menambahkan data turnamen tim!');
+                    document.location.href = 'turnamenku.php';
+                </script>";
+            }
+        } else {
+            echo "<script>
+                alert('ID tim tidak valid!');
+                document.location.href = 'turnamenku.php';
+            </script>";
+        }
     } else {
         echo "<script>
-            alert('ID tim tidak valid!');
-            document.location.href = 'DashboardTurnamen.php';
+            alert('ID turnamen tidak valid!');
+            document.location.href = 'turnamenku.php';
         </script>";
     }
 }
+
+
 
 
 
@@ -450,6 +473,8 @@ function generateBracket($teams) {
 
 
 
+// Ensure you have the connection to the database
+$conn = mysqli_connect("localhost:3306", "root", "root", "pw2024_tubes_233040029");
 
 // Function to add content
 function tambahKonten($data) {

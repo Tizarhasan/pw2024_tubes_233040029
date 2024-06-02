@@ -25,15 +25,15 @@ $row_tim = mysqli_fetch_assoc($result_tim);
 
 // Cek apakah tombol submit sudah ditekan
 if (isset($_POST["submit"])) {
-    // Panggil fungsi tambahTurnamenTim
-    if (tambahTurnamenTimUser($_POST) > 0) {
+    // Panggil fungsi tambahPeserta
+    if (tambahPeserta($_POST) > 0) {
         echo "<script> 
-            alert('Data turnamen tim berhasil ditambahkan!');
+            alert('Data peserta berhasil ditambahkan!');
             document.location.href = 'turnamenku.php';
         </script>";
     } else {
         echo "<script>
-            alert('Data turnamen tim gagal ditambahkan!');
+            alert('Data peserta gagal ditambahkan!');
             document.location.href = 'turnamenku.php';
         </script>";
     }
