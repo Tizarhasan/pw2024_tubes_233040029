@@ -72,7 +72,7 @@ if (isset($_POST["submit_tambah_tim"])) {
                 <div class="row">
                     <div class="cell-10 offset-1">
                         <div class="title">
-                            <p>Form Add Team</p>
+                            <p>Form Daftar Tim</p>
                         </div>
                         <form action="" method="post" enctype="multipart/form-data">
                             <div class="field">
@@ -91,8 +91,8 @@ if (isset($_POST["submit_tambah_tim"])) {
                                 <input type="file" name="logo" id="logo" class="gambar" onchange="previewImage()" required>
                                 <img src="../assets/img/nophoto.png" style="display:block; align-items: center;" class="img-preview w-50">
                             </div>
-                            <div class="field">
-                                <!-- Participant -->
+                            <!-- <div class="field">
+                                Participant
                                 <label for="id_peserta">Kapten Tim</label>
                                 <select name="id_peserta" id="id_peserta" required>
                                     <option value="">Select Participant</option>
@@ -114,7 +114,7 @@ if (isset($_POST["submit_tambah_tim"])) {
                                     }
                                     ?>
                                 </select>
-                            </div>
+                            </div> -->
                             <button type="submit" name="submit_tambah_tim" class="button success outline w-100">
                                 Add Team
                             </button>

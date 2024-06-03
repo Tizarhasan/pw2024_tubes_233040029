@@ -91,7 +91,7 @@ $row_tim = mysqli_fetch_assoc($result_tim);
                             </div>
                             <div class="field">
                                 <!-- Participant -->
-                                <label for="edit_id_peserta">Participant</label>
+                                <label for="edit_id_peserta">Kapten Tim</label>
                                 <select name="edit_id_peserta" id="edit_id_peserta" required>
                                     <option value="">Select Participant</option>
                                     <?php

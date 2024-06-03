@@ -151,7 +151,7 @@ require 'functions.php';
                 <!-- Tombol untuk menambah turnamen -->
                 <div class="text
                 <div class="text-end mt-3">
-                    <button class="btn btn-success btn-metro" onclick="window.location.href='tambahEventTurnamen.php '">Tambah Turnamen</button>
+                    <button class="btn btn-success btn-metro" onclick="window.location.href='tambahEventTurnamen.php '">Tambah Peserta</button>
                 </div>
                 <div class="text-end mt-3">
                     <button class="btn btn-success btn-metro" onclick="window.location.href='tambahturnamen.php'">Tambah Nama Turnamen</button>

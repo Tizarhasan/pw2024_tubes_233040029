@@ -21,12 +21,11 @@ $user_has_team = !is_null($id_tim); ?>
     <link rel="stylesheet" href="main.css">
     <!-- script font awesome kit-->
     <script
-      src="https://kit.fontawesome.com/e18581a144.js"
-      crossorigin="anonymous"
-    ></script>
+      src="https://kit.fontawesome.com/e18581a144.js"crossorigin="anonymous">
+    </script>
     <style> p.privasykanan {
-    margin-left: auto !important;
-  }</style>
+        margin-left: auto !important;}
+    </style>
   </head>
   <body>
     <!-- header hero -->
@@ -35,10 +34,10 @@ $user_has_team = !is_null($id_tim); ?>
       <div class="row">
         <div class="col-12">
           <div class="header-text py-2">
-            <!-- <h1 >Lihat</h1> -->
-            <button type="button" class="btn btn-dark mx-4">
-              HERE <i class="fa-solid fa-arrow-right"></i>
-            </button>
+          <a href="./php/content.php" class="btn btn-light mx-4">     
+                <button type="button" class="btn btn-light mx-4">
+              Lihat Turnamen<i class="fa-solid"></i>
+            </button></a>
           </div>
         </div>
       </div>
@@ -51,7 +50,7 @@ $user_has_team = !is_null($id_tim); ?>
     <section id="sec1" class="switchV1">
       <div class="container py-2">
         <div class="row">
-          <div class="col-lg-6 align-self-center text-justify">
+          <div class="col-lg-8 align-self-center text-justify">
             <h2>Bracket Pertandingan Yang Ada</h2>
             <p>
                     Lihat tim apa yang akan bertanding selanjutnya
@@ -62,7 +61,7 @@ $user_has_team = !is_null($id_tim); ?>
             </button></a>
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-4">
             <div class="px-4 py-5 align-self-center">
               <img
                 src="https://i.pinimg.com/474x/25/56/63/255663d75c00f9872a19b98dfca0641c.jpg"
@@ -76,24 +75,24 @@ $user_has_team = !is_null($id_tim); ?>
       </div>
     </section>
     <!-- section event end -->
-\
+
     <section id="sec2" class="switchV2">
       <div class="container py-5">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-7">
             <div class="px-4 py-5 align-self-center">
               <img
-                src="https://i.pinimg.com/474x/b7/b2/02/b7b202fe927501a02291279b26b59dea.jpg"
+                src="https://i.pinimg.com/474x/d2/9c/75/d29c755f89d8a880562856d12eea33df.jpg"
                 alt=""
-                style="border-radius: 50px"
-                class="py-3 w-50"
+                style=""
+                class="py-3 w-80"
               />
             </div>
           </div>
-          <div class="col-lg-6 align-self-center text-justify">
+          <div class="col-lg-5 align-self-center text-justify">
             <h2>Konten Kami</h2>
             <p>
-             Scene epik turnamen konten lain tersedia 
+             Konten dan info terkait turnamen yang tersedia
             </p>
             <a href="./php/content.php" class="btn btn-dark mx-4">     
                 <button type="button" class="btn btn-dark mx-4">
@@ -104,7 +103,8 @@ $user_has_team = !is_null($id_tim); ?>
         </div>
       </div>
     </section>
-    <!-- section whats's hot -->
+    
+
   <?php include ('./php/footer.php') ?> 
     
 

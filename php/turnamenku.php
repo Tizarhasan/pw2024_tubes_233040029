@@ -51,18 +51,21 @@ $user_has_team =!is_null($user_tim_id);
 </head>
 
 <body>
-<div class="container mt-5">
+<section class="nav mb-5">
+        <?php include '../NavigationBar/nav1.php'; ?>
+    </section>
+<div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-md-8 text-center">
                 <h1 class="mb-4">Selamat Datang, <?php echo $_SESSION["username"];?>!</h1>
-                <p class="welcome-text">Ini adalah halaman dashboard pengguna.</p>
+                <p class="welcome-text">Silahkan Daftarkan Tim Anda.</p>
             </div>
         </div>
 
         <div class="row justify-content-center action-btns">
             <div class="col-md-4">
                 <?php if (!$user_has_team) :?>
-                    <a href="tambahTimUser.php" class="btn btn-primary btn-block">Tambah Tim</a>
+                    <a href="tambahTimUser.php" class="btn btn-primary btn-block">Daftarkan Tim</a>
                 <?php endif;?>
             </div>
 

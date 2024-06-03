@@ -5,7 +5,7 @@ html {
  
   /* header hero */
   section#headhero1 {
-    background-image: url(./assets/img/Mobile\ Legend\ Tournament.png) !important;
+    background-image: url(./assets/img/ML-Arena.jpg) !important;
     width: 100vw;
     height: 80vh; /* Adjusted to be more responsive */
     background-size: cover;
@@ -16,7 +16,7 @@ html {
   /* header hero responsive hp */
   @media (max-width: 600px) {
     section#headhero1 {
-      background-image: url(./assets/img/Mobile\ Legend\ Tournament.png) !important;
+      background-image: url(./assets/img/ML-Arena.jpg) !important;
       height: 55vh; /* Adjusted height for mobile devices */
       background-size: cover !important;
       background-position: center !important;
