@@ -84,7 +84,7 @@ $user_has_team = !is_null($id_tim); ?>
               <img
                 src="https://i.pinimg.com/474x/d2/9c/75/d29c755f89d8a880562856d12eea33df.jpg"
                 alt=""
-                style=""
+                style="border-radius: 50px"
                 class="py-3 w-80"
               />
             </div>
