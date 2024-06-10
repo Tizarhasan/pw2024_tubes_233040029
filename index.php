@@ -76,6 +76,7 @@ $user_has_team = !is_null($id_tim); ?>
     </section>
     <!-- section event end -->
 
+    <!-- section konten -->
     <section id="sec2" class="switchV2">
       <div class="container py-5">
         <div class="row">
@@ -103,6 +104,37 @@ $user_has_team = !is_null($id_tim); ?>
         </div>
       </div>
     </section>
+    <!-- section konten end -->
+
+    <!-- section daftar -->
+    <section id="sec1" class="switchV1">
+      <div class="container py-2">
+        <div class="row">
+          <div class="col-lg-8 align-self-center text-justify">
+            <h2>Daftarkan Tim Kalian!</h2>
+            <p>
+                    Daftar turnamen sekarang
+            </p>
+            <a href="./php/turnamenku.php" class="btn btn-dark mx-4">     
+                <button type="button" class="btn btn-dark mx-4">
+              Disini <i class="fa-solid fa-arrow-right"></i>
+            </button></a>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="px-4 py-5 align-self-center">
+              <img
+                src="https://i.pinimg.com/564x/5f/f1/10/5ff110402d260a1ddcb0634b43cee8cf.jpg"
+                alt=""
+                class="py-3 w-100"
+                style="border-radius: 50px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section daftar end -->
     
 
   <?php include ('./php/footer.php') ?> 
