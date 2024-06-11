@@ -304,7 +304,7 @@ function tambahTurnamenTimUser($data) {
             $id_tim = htmlspecialchars($data["id_tim"]);
             echo "ID Tim: " . $id_tim . "<br>"; // Debugging
             
-            // Insert data into the 'turnamen_tim' table
+            // Insert data into the 'turnamen_tim' table 
             $query_turnamen_tim = "INSERT INTO turnamen_tim (id_turnamen, id_tim) VALUES (?, ?)";
             $stmt = mysqli_prepare($conn, $query_turnamen_tim);
             

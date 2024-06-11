@@ -74,7 +74,7 @@ $user_has_team =!is_null($user_tim_id);
                     <a href="tambahPesertaUser.php" class="btn btn-success btn-block">Tambah Peserta</a>
                 <?php else :?>
                     <button type="button" class="btn btn-outline-secondary btn-block disabled">Tambah Peserta</button>
-                    <p class="mt-3">Anda belum menambahkan tim. Silakan tambahkan tim terlebih dahulu untuk dapat menambahkan peserta.</p>
+                    <p class="mt-3 text-center">Anda belum menambahkan tim. Silakan tambahkan tim terlebih dahulu untuk dapat menambahkan peserta.</p>
                 <?php endif;?>
             </div>
 
